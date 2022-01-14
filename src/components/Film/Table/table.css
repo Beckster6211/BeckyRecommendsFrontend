@@ -1,0 +1,33 @@
+.filmTable {
+  /* border: 2px solid black; */
+  padding: 1%;
+  margin: 1%;
+  /* background-color: lightyellow; */
+}
+
+.tableFilm {
+  /* border: 2px solid black; */
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+.tableHeadFilm {
+  text-align: center;
+  background-color: #b0c4de; /*lightsteelblue*/
+  border: 2px solid black;
+}
+
+.tableBodyFilm {
+  background-color: #8b4513; /*darkorchid*/
+}
+
+.tableBodyFilm tr:nth-child(even) {
+  background-color: #f4a460; /*mauve*/
+}
+
+.tableBodyFilm tr:hover {
+  background-color: lightyellow;
+}

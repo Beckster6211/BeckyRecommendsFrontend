@@ -1,0 +1,20 @@
+.header {
+  background-color: coral;
+  display: flex;
+  justify-content: space-evenly;
+  /* margin: 1%; */
+  padding: 2%;
+}
+
+.headerPics {
+  width: 20%;
+  border-radius: 25px;
+}
+
+.headerText {
+  font-size: 1.5em;
+  padding-top: 2%;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}

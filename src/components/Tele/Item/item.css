@@ -1,0 +1,33 @@
+td {
+  border: 2px solid black;
+  padding: 1%;
+}
+textarea {
+  width: 80%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  /* background-color: #d2691e; */
+}
+
+button {
+  border-radius: 50%;
+  /* vertical-align: middle;
+                  text-align: center; */
+  font-size: 0.9em;
+  border: 2px solid black;
+}
+
+.checkBox {
+  width: 25px;
+  height: 25px;
+  /* border: 2px solid black; */
+}
+
+.stayBeckyOpinion {
+  /* margin-top: 2%;
+                  margin-bottom: 2%; */
+  margin: 2%;
+  /* padding: 1%; */
+  /* border: 2px solid black; */
+}

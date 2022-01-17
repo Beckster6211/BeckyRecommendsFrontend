@@ -12,7 +12,6 @@ function Header() {
           //   onClick={() => logout({ returnTo: window.location.origin })}
           width="100px"
         />
-
         <a className="headerText" href="/">
           Becky <br /> Recommends
         </a>

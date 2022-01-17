@@ -3,12 +3,43 @@ import "./App.css";
 
 import Header from "../Header/header";
 import Nav from "../Nav/nav";
+import Footer from "../Footer/footer";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Nav />
+      <div>
+        <Header />
+      </div>
+      <div>
+        <Nav />
+      </div>
+      <div>
+        <Footer />
+      </div>
+      {/* <div className="footer">
+        <img
+          className="footerPics"
+          src="./Capture.PNG"
+          alt="SoC avatar"
+          //   onClick={() => loginWithRedirect()}
+          width="100px"
+        />
+        <a className="footerText" href="/">
+          Becky <br /> Recommends
+        </a> */}
+      {/* <h3 className="headerText">
+          Becky <br /> Recommends
+        </h3> */}
+
+      {/* <img
+          className="footerPics"
+          src="./Capture1.PNG"
+          alt="Quackers head"
+          //   onClick={() => logout({ returnTo: window.location.origin })}
+          width="100px"
+        />
+      </div> */}
       {/* <header className="App-header"> */}
       {/* <img src={logo} className="App-logo" alt="logo" />
         <p>

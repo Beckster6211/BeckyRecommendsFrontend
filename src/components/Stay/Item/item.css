@@ -13,7 +13,7 @@ textarea {
 button {
   border-radius: 50%;
   /* vertical-align: middle;
-            text-align: center; */
+                text-align: center; */
   font-size: 0.9em;
   border: 2px solid black;
 }
@@ -24,9 +24,9 @@ button {
   /* border: 2px solid black; */
 }
 
-.filmBeckyOpinion {
+.stayBeckyOpinion {
   /* margin-top: 2%;
-            margin-bottom: 2%; */
+                margin-bottom: 2%; */
   margin: 2%;
   /* padding: 1%; */
   /* border: 2px solid black; */

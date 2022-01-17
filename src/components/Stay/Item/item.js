@@ -3,13 +3,11 @@ import React from "react";
 import "./item.css";
 
 function Item({
-  film,
-  filmProvider,
-  filmConnected,
-  filmGenre,
-  filmDescription,
-  filmWhy,
-  filmEmoji,
+  stayWhat,
+  stayLocation,
+  stayDetails,
+  stayWhy,
+  stayEmoji,
   index,
   id,
   item,
@@ -32,17 +30,16 @@ function Item({
   return (
     <tr className="item">
       <td>
-        <p>{film}</p>
-        <p>{filmProvider}</p>
-        <p>{filmEmoji}</p>
+        <p>{stayWhat}</p>
+        <p>{stayEmoji}</p>
       </td>
       <td>
         {/* <p>{filmConnected}</p> */}
-        <textarea defaultValue={filmConnected} rows="13" readOnly></textarea>
+        <textarea defaultValue={stayLocation} rows="13" readOnly></textarea>
       </td>
       <td>
         {/* <p>{filmDescription}</p> */}
-        <textarea defaultValue={filmDescription} rows="13" readOnly></textarea>
+        <textarea defaultValue={stayDetails} rows="13" readOnly></textarea>
       </td>
       {/* {user === undefined ? (
         <td>
@@ -118,7 +115,7 @@ function Item({
         </td>
       )} */}
       <td>
-        <p>{filmWhy}</p>
+        <p>{stayWhy}</p>
         {/* <textarea defaultValue={filmWhy} rows="13" readOnly></textarea> */}
       </td>
       {/* <td>

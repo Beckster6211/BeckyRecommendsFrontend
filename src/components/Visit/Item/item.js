@@ -3,13 +3,10 @@ import React from "react";
 import "./item.css";
 
 function Item({
-  film,
-  filmProvider,
-  filmConnected,
-  filmGenre,
-  filmDescription,
-  filmWhy,
-  filmEmoji,
+  visitWhat,
+  visitLocation,
+  visitWhy,
+  visitEmoji,
   index,
   id,
   item,
@@ -32,18 +29,17 @@ function Item({
   return (
     <tr className="item">
       <td>
-        <p>{film}</p>
-        <p>{filmProvider}</p>
-        <p>{filmEmoji}</p>
+        <p>{visitWhat}</p>
+        <p>{visitEmoji}</p>
       </td>
       <td>
         {/* <p>{filmConnected}</p> */}
-        <textarea defaultValue={filmConnected} rows="13" readOnly></textarea>
+        <textarea defaultValue={visitLocation} rows="13" readOnly></textarea>
       </td>
-      <td>
-        {/* <p>{filmDescription}</p> */}
-        <textarea defaultValue={filmDescription} rows="13" readOnly></textarea>
-      </td>
+      {/* <td> */}
+      {/* <p>{filmDescription}</p> */}
+      {/* <textarea defaultValue={visitWhy} rows="13" readOnly></textarea> */}
+      {/* </td> */}
       {/* {user === undefined ? (
         <td>
           <input
@@ -118,7 +114,7 @@ function Item({
         </td>
       )} */}
       <td>
-        <p>{filmWhy}</p>
+        <p>{visitWhy}</p>
         {/* <textarea defaultValue={filmWhy} rows="13" readOnly></textarea> */}
       </td>
       {/* <td>

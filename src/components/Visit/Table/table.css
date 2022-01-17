@@ -1,0 +1,33 @@
+.visitTable {
+  /* border: 2px solid black; */
+  padding: 1%;
+  margin: 1%;
+  /* background-color: lightyellow; */
+}
+
+.tableVisit {
+  /* border: 2px solid black; */
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+.tableHeadVisit {
+  text-align: center;
+  background-color: #b0c4de; /*lightsteelblue*/
+  border: 2px solid black;
+}
+
+.tableBodyVisit {
+  background-color: #3b7a57; /*amazon*/
+}
+
+.tableBodyVisit tr:nth-child(even) {
+  background-color: #98fb98; /*palegreen*/
+}
+
+.tableBodyVisit tr:hover {
+  background-color: lightyellow;
+}

@@ -12,9 +12,13 @@ function Header() {
           //   onClick={() => logout({ returnTo: window.location.origin })}
           width="100px"
         />
-        <h3 className="headerText">
+
+        <a className="headerText" href="/">
           Becky <br /> Recommends
-        </h3>
+        </a>
+        {/* <h3 className="headerText">
+          Becky <br /> Recommends
+        </h3> */}
         <img
           className="headerPics"
           src="./Capture.PNG"

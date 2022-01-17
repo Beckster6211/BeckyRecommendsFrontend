@@ -1,0 +1,33 @@
+.foodTable {
+  /* border: 2px solid black; */
+  padding: 1%;
+  margin: 1%;
+  /* background-color: lightyellow; */
+}
+
+.tableFood {
+  /* border: 2px solid black; */
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+.tableHeadFood {
+  text-align: center;
+  background-color: #b0c4de; /*lightsteelblue*/
+  border: 2px solid black;
+}
+
+.tableBodyFood {
+  background-color: #6495ed; /*cornflowerblue*/
+}
+
+.tableBodyFood tr:nth-child(even) {
+  background-color: #87cefa; /*lightskyblue*/
+}
+
+.tableBodyFood tr:hover {
+  background-color: lightyellow;
+}

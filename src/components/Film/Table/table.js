@@ -38,9 +38,6 @@ function FilmTable({ becFilm }) {
                 index={index}
                 id={item.id}
                 key={item.id}
-                // removeFilm={deleteFilm}
-                // tried={handleTried}
-                // opinion={handleOpinion}
               />
             );
           })}

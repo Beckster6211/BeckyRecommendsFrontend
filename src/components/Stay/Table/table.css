@@ -21,11 +21,11 @@
 }
 
 .tableBodyStay {
-  background-color: #9932cc; /*darkorchid*/
+  background-color: #8b0000;
 }
 
 .tableBodyStay tr:nth-child(even) {
-  background-color: #e0b0ff; /*mauve*/
+  background-color: #fa8072;
 }
 
 .tableBodyStay tr:hover {

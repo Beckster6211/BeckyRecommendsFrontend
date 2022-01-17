@@ -33,9 +33,6 @@ function VisitTable({ becVisit }) {
                 index={index}
                 id={item.id}
                 key={item.id}
-                // removeFilm={deleteFilm}
-                // tried={handleTried}
-                // opinion={handleOpinion}
               />
             );
           })}

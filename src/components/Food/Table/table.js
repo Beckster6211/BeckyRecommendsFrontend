@@ -3,7 +3,7 @@ import "./table.css";
 
 import Item from "../Item/item";
 
-function FilmTable({ becFood }) {
+function FoodTable({ becFood }) {
   return (
     <div className="foodTable">
       <table className="tableFood">
@@ -33,9 +33,6 @@ function FilmTable({ becFood }) {
                 index={index}
                 id={item.id}
                 key={item.id}
-                // removeFilm={deleteFilm}
-                // tried={handleTried}
-                // opinion={handleOpinion}
               />
             );
           })}
@@ -45,4 +42,4 @@ function FilmTable({ becFood }) {
   );
 }
 
-export default FilmTable;
+export default FoodTable;

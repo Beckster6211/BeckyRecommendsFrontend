@@ -13,7 +13,7 @@ function Food() {
   const [updatePage, setUpdatePage] = useState(false);
 
   useEffect(() => {
-    fetch("http://localhost:3002/becfood")
+    fetch("https://becky-recommends.herokuapp.com/becfood")
       .then((response) => response.json())
       .then((response) => {
         setBecFood(response.data);

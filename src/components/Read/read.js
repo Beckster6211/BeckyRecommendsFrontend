@@ -13,7 +13,7 @@ function Read() {
   const [updatePage, setUpdatePage] = useState(false);
 
   useEffect(() => {
-    fetch("http://localhost:3002/becread")
+    fetch("https://becky-recommends.herokuapp.com/becread")
       .then((response) => response.json())
       .then((response) => {
         setBecRead(response.data);

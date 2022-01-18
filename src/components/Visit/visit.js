@@ -13,7 +13,7 @@ function Visit() {
   const [updatePage, setUpdatePage] = useState(false);
 
   useEffect(() => {
-    fetch("http://localhost:3002/becvisit")
+    fetch("https://becky-recommends.herokuapp.com/becvisit")
       .then((response) => response.json())
       .then((response) => {
         setBecVisit(response.data);

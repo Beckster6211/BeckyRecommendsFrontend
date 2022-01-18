@@ -13,7 +13,7 @@ function Stay() {
   const [updatePage, setUpdatePage] = useState(false);
 
   useEffect(() => {
-    fetch("http://localhost:3002/becstay")
+    fetch("https://becky-recommends.herokuapp.com/becstay")
       .then((response) => response.json())
       .then((response) => {
         setBecStay(response.data);

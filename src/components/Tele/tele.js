@@ -13,7 +13,7 @@ function Tele() {
   const [updatePage, setUpdatePage] = useState(false);
 
   useEffect(() => {
-    fetch("http://localhost:3002/bectele")
+    fetch("https://becky-recommends.herokuapp.com/bectele")
       .then((response) => response.json())
       .then((response) => {
         setBecTele(response.data);

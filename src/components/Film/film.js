@@ -13,7 +13,7 @@ function Film() {
   const [updatePage, setUpdatePage] = useState(false);
 
   useEffect(() => {
-    fetch("https://recommend-to-becky.herokuapp.com/becfilm")
+    fetch("https://becky-recommends.herokuapp.com/becfilm")
       .then((response) => response.json())
       .then((response) => {
         setBecFilm(response.data);

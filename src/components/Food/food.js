@@ -25,7 +25,18 @@ function Food() {
 
   return (
     <div className="foodPage">
-      <h3>Food</h3>
+      {/* <h3 className="foodPageHeading">Food</h3> */}
+      <p className="foodPageText">
+        These are foods I recommend to other people
+        <br />
+        😋 Enjoy! 😋
+        {/* <br />I am not a fan of spicy or hot food, I do like some things with a
+        bit of a kick{" "}
+        <small>
+          <em>e.g. fajitas, chinese curry</em>
+        </small>{" "}
+        🥵 */}
+      </p>
       {/* <div>
         <details>
           <summary>Stay Video</summary>

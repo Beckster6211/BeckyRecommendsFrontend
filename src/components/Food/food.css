@@ -20,6 +20,11 @@
   /* border: 2px solid black; */
 }
 
+.foodPageSepText {
+  margin: 1%;
+  font-size: 0.7em;
+}
+
 @media only screen and (min-width: 768px) {
   .foodPageText {
     /* margin-top: 1%; */

@@ -30,6 +30,13 @@ function Food() {
         These are foods I recommend to other people
         <br />
         😋 Enjoy! 😋
+        <br />
+        <p className="foodPageSepText">
+          I am a sweet tooth meat eating carnivore sorry...😔{" "}
+          <small>
+            I will add more and try to be as inclusive as possible 👍
+          </small>
+        </p>
         {/* <br />I am not a fan of spicy or hot food, I do like some things with a
         bit of a kick{" "}
         <small>

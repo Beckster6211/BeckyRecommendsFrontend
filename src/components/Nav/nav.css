@@ -65,13 +65,13 @@ Link {
   text-decoration: none;
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 768px) {
   .nav {
     display: flex;
     justify-content: space-evenly;
     margin: 1%;
     padding: 1%;
-    background-color: #ff9999; /*lightpinksalmon*/
+    background-color: #ff9999;
     text-decoration: none;
   }
 
@@ -82,19 +82,19 @@ Link {
 
   .foodLink {
     margin: 1%;
-    background-color: #00bfff; /*blue*/
+    background-color: #00bfff;
     border: 2px solid black;
     text-decoration: none;
     color: black;
-    font-size: 2em;
+    font-size: 1.3em;
   }
 
   .cityLink {
     margin: 1%;
     border: 2px solid black;
     text-decoration: none;
-    background-color: #3cb371; /*medimumseagreen*/
-    font-size: 2em;
+    background-color: #3cb371;
+    font-size: 1.3em;
   }
 
   .countryLink {
@@ -102,7 +102,7 @@ Link {
     border: 2px solid black;
     text-decoration: none;
     background-color: #ff4500;
-    font-size: 2em;
+    font-size: 1.3em;
   }
 
   .bookLink {
@@ -110,7 +110,7 @@ Link {
     border: 2px solid black;
     text-decoration: none;
     background-color: #9370db;
-    font-size: 2em;
+    font-size: 1.3em;
   }
 
   .teleLink {
@@ -118,7 +118,7 @@ Link {
     border: 2px solid black;
     text-decoration: none;
     background-color: #ffa500;
-    font-size: 2em;
+    font-size: 1.3em;
   }
 
   .filmLink {
@@ -126,7 +126,76 @@ Link {
     border: 2px solid black;
     text-decoration: none;
     background-color: #d2691e;
-    font-size: 2em;
+    font-size: 1.3em;
+  }
+
+  Link {
+    text-decoration: none;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1%;
+    padding: 1%;
+    background-color: #ff9999;
+    text-decoration: none;
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  .foodLink {
+    margin: 1%;
+    background-color: #00bfff;
+    border: 2px solid black;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+  }
+
+  .cityLink {
+    margin: 1%;
+    border: 2px solid black;
+    text-decoration: none;
+    background-color: #3cb371;
+    font-size: 1.5em;
+  }
+
+  .countryLink {
+    margin: 1%;
+    border: 2px solid black;
+    text-decoration: none;
+    background-color: #ff4500;
+    font-size: 1.5em;
+  }
+
+  .bookLink {
+    margin: 1%;
+    border: 2px solid black;
+    text-decoration: none;
+    background-color: #9370db;
+    font-size: 1.5em;
+  }
+
+  .teleLink {
+    margin: 1%;
+    border: 2px solid black;
+    text-decoration: none;
+    background-color: #ffa500;
+    font-size: 1.5em;
+  }
+
+  .filmLink {
+    margin: 1%;
+    border: 2px solid black;
+    text-decoration: none;
+    background-color: #d2691e;
+    font-size: 1.5em;
   }
 
   Link {

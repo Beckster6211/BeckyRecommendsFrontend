@@ -9,3 +9,35 @@ textarea {
     sans-serif;
   /* background-color: #d2691e; */
 }
+p {
+  font-size: 0.8em;
+}
+
+@media only screen and (max-width: 320px) {
+  p {
+    font-size: 0.8em;
+  }
+
+  textarea {
+    width: 80%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+      "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+      "Helvetica Neue", sans-serif;
+    /* background-color: #d2691e; */
+    font-size: 0.8em;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  p {
+    font-size: 0.9em;
+  }
+  textarea {
+    width: 80%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+      "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+      "Helvetica Neue", sans-serif;
+    /* background-color: #d2691e; */
+    font-size: 0.9em;
+  }
+}

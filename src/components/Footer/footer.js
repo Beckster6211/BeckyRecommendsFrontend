@@ -19,7 +19,8 @@ function Footer() {
           target="_blank"
           rel="noreferrer"
         >
-          Recommend to Becky
+          Recommend
+          <br /> to Becky
         </a>
         {/* <h3 className="headerText">
           Becky <br /> Recommends

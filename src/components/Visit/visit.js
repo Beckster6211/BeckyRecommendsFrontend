@@ -25,10 +25,18 @@ function Visit() {
 
   return (
     <div className="visitPage">
-      <h3>Visit</h3>
+      {/* <h3>Visit</h3> */}
+      <div>
+        <p className="visitPageText">
+          These are places I have visited I recommend to other people
+        </p>
+        <p className="visitPageSepText">
+          Some you may need an appetite for, others just a sense of fun.
+        </p>
+      </div>
       {/* <div>
         <details>
-          <summary>Stay Video</summary>
+          <summary>Visit Video</summary>
           <video></video>
         </details>
       </div> */}

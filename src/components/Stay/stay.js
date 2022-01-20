@@ -25,7 +25,13 @@ function Stay() {
 
   return (
     <div className="stayPage">
-      <h3>Stay</h3>
+      {/* <h3>Stay</h3> */}
+      <div>
+        <p className="stayPageText">
+          These are places I have stayed I recommend to others
+        </p>
+        <p className="stayPageSepText">Bring a sense of fun and adventure.</p>
+      </div>
       {/* <div>
         <details>
           <summary>Stay Video</summary>

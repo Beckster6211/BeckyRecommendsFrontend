@@ -25,7 +25,16 @@ function Tele() {
 
   return (
     <div className="telePage">
-      <h3>Tele</h3>
+      {/* <h3>Tele</h3> */}
+      <div>
+        <p className="telePageText">
+          These are tv shows I recommend to other people
+        </p>
+        <p className="telePageSepText">
+          My rule is I give a show 5 episodes to grab me 🎣{" "}
+          <small>If I'm not hooked by then I cut it loose 🥱</small>
+        </p>
+      </div>
       {/* <div>
         <details>
           <summary>Stay Video</summary>

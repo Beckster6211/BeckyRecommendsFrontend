@@ -22,10 +22,20 @@ function Film() {
 
   return (
     <div className="filmPage">
-      <h3>Film</h3>
+      {/* <h3>Film</h3> */}
+      <div>
+        <p className="filmPageText">These are films I recommend...</p>
+        <p className="filmPageSepText">
+          I like different genres of film (apart from horror){" "}
+          <small>
+            Don't be surprised if alot of them are animated (I love animation )
+            😁
+          </small>
+        </p>
+      </div>
       {/* <div>
         <details>
-          <summary>Stay Video</summary>
+          <summary>Film Video</summary>
           <video></video>
         </details>
       </div> */}

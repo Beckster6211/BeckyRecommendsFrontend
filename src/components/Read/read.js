@@ -25,7 +25,16 @@ function Read() {
 
   return (
     <div className="readPage">
-      <h3>Read</h3>
+      {/* <h3>Read</h3> */}
+      <div>
+        <p className="readPageText">These are books I recommend to others</p>
+        <p className="readPageSepText">
+          It could be because I like tv series/film that its based on{" "}
+          <small>
+            Or that I like certain characters portrayed differently/more indepth
+          </small>
+        </p>
+      </div>
       {/* <div>
         <details>
           <summary>Stay Video</summary>

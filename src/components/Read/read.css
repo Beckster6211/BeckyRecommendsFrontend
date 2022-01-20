@@ -4,3 +4,36 @@
   padding: 1%;
   /* border: 2px solid black; */
 }
+
+.readPageText {
+  /* margin-top: 1%; */
+  /* margin-bottom: 2%; */
+  font-size: 1em;
+  margin: 2%;
+  /* border: 2px solid black; */
+}
+
+.readPageSepText {
+  margin: 1%;
+  font-size: 0.7em;
+}
+
+@media only screen and (min-width: 768px) {
+  .readPageText {
+    /* margin-top: 1%; */
+    /* margin-bottom: 2%; */
+    font-size: 1.2em;
+    margin: 2%;
+    /* border: 2px solid black; */
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .readPageText {
+    /* margin-top: 1%; */
+    /* margin-bottom: 2%; */
+    font-size: 1.4em;
+    margin: 2%;
+    /* border: 2px solid black; */
+  }
+}

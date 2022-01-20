@@ -5,20 +5,34 @@
   /* border: 2px solid black; */
 }
 
-@media only screen and (max-width: 320px) {
-  .tableHeadStay {
-    text-align: center;
-    background-color: #b0c4de; /*lightsteelblue*/
-    border: 2px solid black;
-    font-size: 0.9em;
+.stayPageText {
+  /* margin-top: 1%; */
+  /* margin-bottom: 2%; */
+  font-size: 1em;
+  margin: 2%;
+  /* border: 2px solid black; */
+}
+
+.stayPageSepText {
+  margin: 1%;
+  font-size: 0.7em;
+}
+@media only screen and (min-width: 768px) {
+  .stayPageText {
+    /* margin-top: 1%; */
+    /* margin-bottom: 2%; */
+    font-size: 1.2em;
+    margin: 2%;
+    /* border: 2px solid black; */
   }
 }
 
-@media only screen and (min-width: 768px) {
-  .tableHeadStay {
-    text-align: center;
-    background-color: #b0c4de; /*lightsteelblue*/
-    border: 2px solid black;
-    font-size: 1.2em;
+@media only screen and (min-width: 1024px) {
+  .stayPageText {
+    /* margin-top: 1%; */
+    /* margin-bottom: 2%; */
+    font-size: 1.4em;
+    margin: 2%;
+    /* border: 2px solid black; */
   }
 }

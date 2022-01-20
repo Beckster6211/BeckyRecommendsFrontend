@@ -26,11 +26,12 @@ function Food() {
   return (
     <div className="foodPage">
       {/* <h3 className="foodPageHeading">Food</h3> */}
-      <p className="foodPageText">
-        These are foods I recommend to other people
-        <br />
-        😋 Enjoy! 😋
-        <br />
+      <div>
+        <p className="foodPageText">
+          These are foods I recommend to other people
+          <br />
+          😋 Enjoy! 😋
+        </p>
         <p className="foodPageSepText">
           I am a sweet tooth meat eating carnivore sorry...😔{" "}
           <small>
@@ -43,7 +44,7 @@ function Food() {
           <em>e.g. fajitas, chinese curry</em>
         </small>{" "}
         🥵 */}
-      </p>
+      </div>
       {/* <div>
         <details>
           <summary>Stay Video</summary>

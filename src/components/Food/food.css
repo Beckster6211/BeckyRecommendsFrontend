@@ -33,6 +33,10 @@
     margin: 2%;
     /* border: 2px solid black; */
   }
+  .foodPageSepText {
+    margin: 1%;
+    font-size: 0.9em;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -42,5 +46,10 @@
     font-size: 1.4em;
     margin: 2%;
     /* border: 2px solid black; */
+  }
+
+  .foodPageSepText {
+    margin: 1%;
+    font-size: 1.1em;
   }
 }

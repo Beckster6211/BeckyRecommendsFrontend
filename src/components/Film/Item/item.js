@@ -16,20 +16,30 @@ function Item({
   return (
     <tr className="item">
       <td>
-        <p>{film}</p>
-        <p>{filmProvider}</p>
-        <p>{filmEmoji}</p>
+        <p className="filmItem">{film}</p>
+        <p className="filmItem">{filmProvider}</p>
+        <p className="filmItem">{filmEmoji}</p>
       </td>
       <td>
         {/* <p>{filmConnected}</p> */}
-        <textarea defaultValue={filmConnected} rows="13" readOnly></textarea>
+        <textarea
+          className="filmItemTextarea"
+          defaultValue={filmConnected}
+          rows="13"
+          readOnly
+        ></textarea>
       </td>
       <td>
         {/* <p>{filmDescription}</p> */}
-        <textarea defaultValue={filmDescription} rows="13" readOnly></textarea>
+        <textarea
+          className="filmItemTextarea"
+          defaultValue={filmDescription}
+          rows="13"
+          readOnly
+        ></textarea>
       </td>
       <td>
-        <p>{filmWhy}</p>
+        <p className="filmItem">{filmWhy}</p>
         {/* <textarea defaultValue={filmWhy} rows="13" readOnly></textarea> */}
       </td>
     </tr>

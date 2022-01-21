@@ -17,21 +17,31 @@ function Item({
   return (
     <tr className="item">
       <td>
-        <p>{readBook}</p>
-        <p>{readAuthor}</p>
-        <p>({readNumberOfBooks})</p>
-        <p>{readEmoji}</p>
+        <p className="readItem">{readBook}</p>
+        <p className="readItem">{readAuthor}</p>
+        <p className="readItem">({readNumberOfBooks})</p>
+        <p className="readItem">{readEmoji}</p>
       </td>
       <td>
         {/* <p>{readConnected}</p> */}
-        <textarea defaultValue={readConnected} rows="13" readOnly></textarea>
+        <textarea
+          className="readItemTextarea"
+          defaultValue={readConnected}
+          rows="13"
+          readOnly
+        ></textarea>
       </td>
       <td>
         {/* <p>{readDescription}</p> */}
-        <textarea defaultValue={readDescription} rows="13" readOnly></textarea>
+        <textarea
+          className="readItemTextarea"
+          defaultValue={readDescription}
+          rows="13"
+          readOnly
+        ></textarea>
       </td>
       <td>
-        <p>{readWhy}</p>
+        <p className="readItem">{readWhy}</p>
         {/* <textarea defaultValue={readWhy} rows="13" readOnly></textarea> */}
       </td>
     </tr>

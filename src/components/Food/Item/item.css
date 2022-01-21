@@ -9,18 +9,24 @@ textarea {
     sans-serif;
   /* background-color: #d2691e; */
 }
-p {
+.foodItem {
   font-size: 0.8em;
 }
 
 @media only screen and (max-width: 320px) {
-  p {
+  .foodItem {
     font-size: 0.8em;
   }
 }
 
 @media only screen and (min-width: 768px) {
-  p {
+  .foodItem {
     font-size: 0.9em;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .foodItem {
+    font-size: 1em;
   }
 }

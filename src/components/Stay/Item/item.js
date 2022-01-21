@@ -14,19 +14,29 @@ function Item({
   return (
     <tr className="item">
       <td>
-        <p>{stayWhat}</p>
-        <p>{stayEmoji}</p>
+        <p className="stayItem">{stayWhat}</p>
+        <p className="stayItem">{stayEmoji}</p>
       </td>
       <td>
         {/* <p>{stayLocation}</p> */}
-        <textarea defaultValue={stayLocation} rows="13" readOnly></textarea>
+        <textarea
+          className="stayItemTextarea"
+          defaultValue={stayLocation}
+          rows="13"
+          readOnly
+        ></textarea>
       </td>
       <td>
         {/* <p>{stayDetails}</p> */}
-        <textarea defaultValue={stayDetails} rows="13" readOnly></textarea>
+        <textarea
+          className="stayItemTextarea"
+          defaultValue={stayDetails}
+          rows="13"
+          readOnly
+        ></textarea>
       </td>
       <td>
-        <p>{stayWhy}</p>
+        <p className="stayItem">{stayWhy}</p>
         {/* <textarea defaultValue={stayWhy} rows="13" readOnly></textarea> */}
       </td>
     </tr>

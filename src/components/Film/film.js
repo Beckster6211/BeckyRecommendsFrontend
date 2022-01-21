@@ -26,7 +26,7 @@ function Film() {
       <div>
         <p className="filmPageText">These are films I recommend...</p>
         <p className="filmPageSepText">
-          I like different genres of film (apart from horror){" "}
+          I like different genres of film (apart from horror 😱){" "}
           <small>
             Don't be surprised if alot of them are animated (I love animation )
             😁

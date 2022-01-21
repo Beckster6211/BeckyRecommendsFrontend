@@ -17,21 +17,31 @@ function Item({
   return (
     <tr className="item">
       <td>
-        <p>{teleTvShow}</p>
-        <p>{teleProvider}</p>
-        <p>({teleNumberOfSeries})</p>
-        <p>{teleEmoji}</p>
+        <p className="teleItem">{teleTvShow}</p>
+        <p className="teleItem">{teleProvider}</p>
+        <p className="teleItem">({teleNumberOfSeries})</p>
+        <p className="teleItem">{teleEmoji}</p>
       </td>
       <td>
         {/* <p>{teleConnected}</p> */}
-        <textarea defaultValue={teleConnected} rows="13" readOnly></textarea>
+        <textarea
+          className="teleItemTextarea"
+          defaultValue={teleConnected}
+          rows="13"
+          readOnly
+        ></textarea>
       </td>
       <td>
         {/* <p>{teleDescription}</p> */}
-        <textarea defaultValue={teleDescription} rows="13" readOnly></textarea>
+        <textarea
+          className="teleItemTextarea"
+          defaultValue={teleDescription}
+          rows="13"
+          readOnly
+        ></textarea>
       </td>
       <td>
-        <p>{teleWhy}</p>
+        <p className="teleItem">{teleWhy}</p>
         {/* <textarea defaultValue={teleWhy} rows="13" readOnly></textarea> */}
       </td>
     </tr>

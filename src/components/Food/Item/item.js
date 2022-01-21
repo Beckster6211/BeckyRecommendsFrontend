@@ -5,15 +5,15 @@ function Item({ food, foodRecipe, foodWhy, foodEmoji, index, id, item }) {
   return (
     <tr className="item">
       <td>
-        <p>{food}</p>
-        <p>{foodEmoji}</p>
+        <p className="foodItem">{food}</p>
+        <p className="foodItem">{foodEmoji}</p>
       </td>
       <td>
-        <p>{foodRecipe}</p>
+        <p className="foodItem">{foodRecipe}</p>
         {/* <textarea defaultValue={foodRecipe} rows="13" readOnly></textarea> */}
       </td>
       <td>
-        <p>{foodWhy}</p>
+        <p className="foodItem">{foodWhy}</p>
         {/* <textarea defaultValue={foodWhy} rows="13" readOnly></textarea> */}
       </td>
     </tr>

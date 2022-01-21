@@ -14,10 +14,10 @@ function Home() {
       <p className="homeDescriptionWhy">
         This is the partner of my other site <br />
         <strong>Recommend to Becky</strong> <br />
-        👇(which you can get to by clicking the footer at the bottom.)👇
+        👇 which you can get to by clicking the footer at the bottom 👇
       </p>
       <p className="homeDescriptionHow">
-        Recommend to Becky{" "}
+        💡 Recommend to Becky{" "}
         <small>
           (which I hope you have experienced as you can get to this site from
           that one)
@@ -26,10 +26,10 @@ function Home() {
         <small> (food, visit, stay, book, tele and film)</small>
       </p>
       <p className="homeDescriptionHow">
-        The idea behind this site is to help if having trouble and need some
-        help with recommendations sometimes seeing what I have recommended to
-        others can help you with knowing whether you are a million miles off or
-        right on target with your suggestion.
+        🧠 The idea behind this site is to assist if having trouble and need
+        some help with recommendations 💭 sometimes seeing what I have
+        recommended to others can help you with knowing whether you are a
+        million miles off or right on target with your suggestion 🤔
         <br />
         <strong>
           <small>
@@ -42,11 +42,12 @@ function Home() {
         </strong>
       </p>
       <p className="homeDescriptionHow">
-        Or maybe you like my suggestions and take something away from it 🤷{" "}
+        Or 🤷 maybe you like my suggestions and take something away from it{" "}
         <br />
         <strong>
-          😠Don't judge me for mine <small>(I won't judge others)</small> 🤪 I'm
-          quirky and eclectic. Deal with it 😤
+          😠Don't judge me for my suggestions{" "}
+          <small>(I won't judge others)</small> 🤪 I'm quirky and eclectic. Deal
+          with it 😃
         </strong>
       </p>
     </div>

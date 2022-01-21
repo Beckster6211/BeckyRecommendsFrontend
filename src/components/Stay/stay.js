@@ -3,13 +3,10 @@ import React, { useState, useEffect } from "react";
 import "./stay.css";
 
 import StayTable from "./Table/table";
-// import FilmForm from "./Form/form";
-// import YesNo from "./YesNo/yesNo";
 
 function Stay() {
   const [becStay, setBecStay] = useState([]);
   console.log({ becStay });
-  // const [form, setForm] = useState({});
   const [updatePage, setUpdatePage] = useState(false);
 
   useEffect(() => {

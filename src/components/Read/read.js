@@ -3,13 +3,10 @@ import React, { useState, useEffect } from "react";
 import "./read.css";
 
 import ReadTable from "./Table/table";
-// import FilmForm from "./Form/form";
-// import YesNo from "./YesNo/yesNo";
 
 function Read() {
   const [becRead, setBecRead] = useState([]);
   console.log({ becRead });
-  // const [form, setForm] = useState({});
   const [updatePage, setUpdatePage] = useState(false);
 
   useEffect(() => {

@@ -9,7 +9,6 @@ function Header() {
           className="headerPics"
           src="./Capture1.PNG"
           alt="Quackers head"
-          //   onClick={() => logout({ returnTo: window.location.origin })}
           width="100px"
         />
         <a className="headerText" href="/">
@@ -22,7 +21,6 @@ function Header() {
           className="headerPics"
           src="./Capture.PNG"
           alt="SoC avatar"
-          //   onClick={() => loginWithRedirect()}
           width="100px"
         />
       </header>

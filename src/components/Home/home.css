@@ -24,12 +24,12 @@
 
 @media only screen and (min-width: 768px) {
   .homePage {
-    border: solid black 2px;
+    /* border: solid black 2px;
     margin: 2%;
     padding: 1%;
-    background-color: lightYellow;
+    background-color: lightYellow; */
     /* min-height: 100vh; */
-    text-align: center;
+    /* text-align: center; */
     font-size: 1em;
   }
 
@@ -37,7 +37,7 @@
     /* border: solid black 2px; */
     font-size: 1em;
     /* background-color: blueviolet; */
-    margin: 1%;
+    /* margin: 1%; */
   }
 
   .homeDescriptionHow {

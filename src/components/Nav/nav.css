@@ -14,7 +14,7 @@ a {
 
 .foodLink {
   margin: 1%;
-  padding: 0.2%;
+  padding: 0.1%;
   background-color: #00bfff; /*blue*/
   border: 2px solid black;
   /* text-decoration: none; */
@@ -25,7 +25,7 @@ a {
 
 .cityLink {
   margin: 1%;
-  padding: 0.2%;
+  padding: 0.1%;
   border: 2px solid black;
   /* text-decoration: none; */
   background-color: #3cb371; /*medimumseagreen*/
@@ -35,7 +35,7 @@ a {
 
 .countryLink {
   margin: 1%;
-  padding: 0.2%;
+  padding: 0.1%;
   border: 2px solid black;
   /* text-decoration: none; */
   background-color: #ff4500;
@@ -45,7 +45,7 @@ a {
 
 .bookLink {
   margin: 1%;
-  padding: 0.2%;
+  padding: 0.1%;
   border: 2px solid black;
   /* text-decoration: none; */
   background-color: #9370db;
@@ -55,7 +55,7 @@ a {
 
 .teleLink {
   margin: 1%;
-  padding: 0.2%;
+  padding: 0.1%;
   border: 2px solid black;
   /* text-decoration: none; */
   background-color: #ffa500;
@@ -65,7 +65,7 @@ a {
 
 .filmLink {
   margin: 1%;
-  padding: 0.2%;
+  padding: 0.1%;
   border: 2px solid black;
   /* text-decoration: none; */
   background-color: #d2691e;

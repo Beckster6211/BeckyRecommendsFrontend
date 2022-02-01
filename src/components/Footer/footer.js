@@ -15,7 +15,7 @@ function Footer() {
         />
         <a
           className="footerText"
-          href="https://blj-recommendtobecky.netlify.app/"
+          href="https://blj-recommend-to-becky.netlify.app/"
           target="_blank"
           rel="noreferrer"
         >

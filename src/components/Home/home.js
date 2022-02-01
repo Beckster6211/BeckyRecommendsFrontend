@@ -14,7 +14,8 @@ function Home() {
       <p className="homeDescriptionWhy">
         This is the partner of my other site <br />
         <strong>Recommend to Becky</strong> <br />
-        👇 which you can get to by clicking the footer at the bottom 👇
+        👇 which you can get to <small>(In a new tab)</small> by clicking the
+        footer at the bottom 👇
       </p>
       <p className="homeDescriptionHow">
         💡 Recommend to Becky{" "}
@@ -26,10 +27,11 @@ function Home() {
         <small> (food, visit, stay, book, tele and film)</small>
       </p>
       <p className="homeDescriptionHow">
-        🧠 The idea behind this site is to assist if having trouble and need
-        some help with recommendations 💭 sometimes seeing what I have
-        recommended to others can help you with knowing whether you are a
-        million miles off or right on target with your suggestion 🤔
+        🧠 The idea behind <strong>Becky Recommends</strong> is to assist if
+        having trouble and need some help with recommendations 💭 sometimes
+        seeing what I have recommended to others can help you with knowing
+        whether you are a million miles off or right on target with your
+        suggestion 🤔
         <br />
         <strong>
           <small>

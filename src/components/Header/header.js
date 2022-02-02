@@ -14,9 +14,6 @@ function Header() {
         <a className="headerText" href="/">
           Becky <br /> Recommends
         </a>
-        {/* <h3 className="headerText">
-          Becky <br /> Recommends
-        </h3> */}
         <img
           className="headerPics"
           src="./Capture.PNG"

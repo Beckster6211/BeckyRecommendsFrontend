@@ -1,12 +1,10 @@
 .visitPage {
   margin: 2%;
-  background-color: #3cb371; /*medimumseagreen*/
+  background-color: #3cb371; /*mediumseagreen*/
   padding: 1%;
   /* border: 2px solid black; */
 }
 .visitPageText {
-  /* margin-top: 1%; */
-  /* margin-bottom: 2%; */
   font-size: 1em;
   margin: 2%;
   /* border: 2px solid black; */
@@ -19,14 +17,10 @@
 
 @media only screen and (min-width: 768px) {
   .visitPageText {
-    /* margin-top: 1%; */
-    /* margin-bottom: 2%; */
     font-size: 1.2em;
-    /* margin: 2%; */
     /* border: 2px solid black; */
   }
   .visitPageSepText {
-    /* margin: 1%; */
     font-size: 0.9em;
   }
 }

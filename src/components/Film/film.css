@@ -1,6 +1,6 @@
 .filmPage {
   margin: 2%;
-  background-color: #d2691e;
+  background-color: #d2691e; /*chocolate*/
   padding: 1%;
   /* border: 2px solid black; */
 }
@@ -8,12 +8,8 @@
 .filmPageParagraph {
   margin-top: 1%;
   margin-bottom: 1%;
-  /* text-align: center; */
-  /* display: inline-block; */
 }
 .filmPageText {
-  /* margin-top: 1%; */
-  /* margin-bottom: 2%; */
   font-size: 1em;
   margin: 2%;
   /* border: 2px solid black; */
@@ -26,30 +22,22 @@
 
 @media only screen and (min-width: 768px) {
   .filmPageText {
-    /* margin-top: 1%; */
-    /* margin-bottom: 2%; */
     font-size: 1.2em;
-    /* margin: 2%; */
     /* border: 2px solid black; */
   }
 
   .filmPageSepText {
-    /* margin: 1%; */
     font-size: 0.9em;
   }
 }
 
 @media only screen and (min-width: 1024px) {
   .filmPageText {
-    /* margin-top: 1%; */
-    /* margin-bottom: 2%; */
     font-size: 1.4em;
-    /* margin: 2%; */
     /* border: 2px solid black; */
   }
 
   .filmPageSepText {
-    /* margin: 1%; */
     font-size: 1.1em;
   }
 }

@@ -22,9 +22,6 @@ function Footer() {
           Recommend
           <br /> to Becky
         </a>
-        {/* <h3 className="headerText">
-          Becky <br /> Recommends
-        </h3> */}
 
         <img
           className="footerPics"

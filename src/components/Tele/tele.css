@@ -1,13 +1,11 @@
 .telePage {
   margin: 2%;
-  background-color: #ffa500;
+  background-color: #ffa500; /*orange*/
   padding: 1%;
   /* border: 2px solid black; */
 }
 
 .telePageText {
-  /* margin-top: 1%; */
-  /* margin-bottom: 2%; */
   font-size: 1em;
   margin: 2%;
   /* border: 2px solid black; */
@@ -20,30 +18,22 @@
 
 @media only screen and (min-width: 768px) {
   .telePageText {
-    /* margin-top: 1%; */
-    /* margin-bottom: 2%; */
     font-size: 1.2em;
-    /* margin: 2%; */
     /* border: 2px solid black; */
   }
 
   .telePageSepText {
-    /* margin: 1%; */
     font-size: 0.9em;
   }
 }
 
 @media only screen and (min-width: 1024px) {
   .telePageText {
-    /* margin-top: 1%; */
-    /* margin-bottom: 2%; */
     font-size: 1.4em;
-    /* margin: 2%; */
     /* border: 2px solid black; */
   }
 
   .telePageSepText {
-    /* margin: 1%; */
     font-size: 1.1em;
   }
 }
